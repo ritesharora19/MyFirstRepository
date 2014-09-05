@@ -21,6 +21,8 @@
 		1818AD9A19B8739000D9F2E0 /* DynamicAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818AD9919B8739000D9F2E0 /* DynamicAnimatorDemoTests.m */; };
 		1818ADA619B873AA00D9F2E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818ADA419B873AA00D9F2E0 /* MainViewController.m */; };
 		1818ADA719B873AA00D9F2E0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818ADA519B873AA00D9F2E0 /* MainViewController.xib */; };
+		18FC6AD719B9F85100091C7A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC6AD519B9F85100091C7A /* FirstViewController.m */; };
+		18FC6AD819B9F85100091C7A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FC6AD619B9F85100091C7A /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		1818ADA319B873AA00D9F2E0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		1818ADA419B873AA00D9F2E0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		1818ADA519B873AA00D9F2E0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		18FC6AD419B9F85100091C7A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
+		18FC6AD519B9F85100091C7A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
+		18FC6AD619B9F85100091C7A /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				1818ADA319B873AA00D9F2E0 /* MainViewController.h */,
 				1818ADA419B873AA00D9F2E0 /* MainViewController.m */,
 				1818ADA519B873AA00D9F2E0 /* MainViewController.xib */,
+				18FC6AD419B9F85100091C7A /* FirstViewController.h */,
+				18FC6AD519B9F85100091C7A /* FirstViewController.m */,
+				18FC6AD619B9F85100091C7A /* FirstViewController.xib */,
 				1818AD8619B8739000D9F2E0 /* Images.xcassets */,
 				1818AD7B19B8739000D9F2E0 /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 				1818AD7F19B8739000D9F2E0 /* InfoPlist.strings in Resources */,
 				1818ADA719B873AA00D9F2E0 /* MainViewController.xib in Resources */,
 				1818AD8719B8739000D9F2E0 /* Images.xcassets in Resources */,
+				18FC6AD819B9F85100091C7A /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				1818AD8519B8739000D9F2E0 /* AppDelegate.m in Sources */,
 				1818ADA619B873AA00D9F2E0 /* MainViewController.m in Sources */,
 				1818AD8119B8739000D9F2E0 /* main.m in Sources */,
+				18FC6AD719B9F85100091C7A /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +457,7 @@
 				1818AD9F19B8739000D9F2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1818ADA019B8739000D9F2E0 /* Build configuration list for PBXNativeTarget "DynamicAnimatorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +466,7 @@
 				1818ADA219B8739000D9F2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
